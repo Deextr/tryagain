@@ -59,7 +59,6 @@ namespace tryagain
             }
 
         }
-
         private bool AuthenticateUser(string username, string password, out string role, out int userId, out int empId)
         {
             role = string.Empty;
